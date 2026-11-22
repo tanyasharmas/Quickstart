@@ -10,12 +10,15 @@ theme = 'ananke'
     pageRef = '/'
     weight = 10
 
-  [[menus.main]]
-    name = 'About'
-    pageRef = '/about'
-    weight = 20
 
   [[menus.main]]
-    name = 'External Link'
+    name = 'Hugo Website'
     url = 'https://gohugo.io/'
     weight = 30
+
+
+[[menus.main]]
+    name = 'Hugo Documentation'
+    url = 'https://gohugo.io/documentation/'
+    weight = 30
+
