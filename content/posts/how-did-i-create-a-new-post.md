@@ -35,6 +35,17 @@ Ctrl +C
 
 6. Verify that your changes are showing up in the localhost
 
+# Ready to commit the changes to git?
+
+
+1. Check git status
+
+    ```
+    git status
+    ```
+
+2. 
+
 
 
 
