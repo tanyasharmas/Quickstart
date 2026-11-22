@@ -2,3 +2,20 @@ baseURL = 'https://example.org/'
 locale = 'en-us'
 title = 'Tanya Project'
 theme = 'ananke'
+
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 20
+
+  [[menus.main]]
+    name = 'External Link'
+    url = 'https://gohugo.io/'
+    weight = 30
