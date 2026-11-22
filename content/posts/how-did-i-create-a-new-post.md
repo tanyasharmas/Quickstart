@@ -4,27 +4,36 @@ draft = false
 title = 'How Did I Create a New Post'
 +++
 
+## Here are the steps to create a new post
 
-Here are the steps to create a new post
-
-Step 1:
-Add a new post page in contect /posts folder
-Command:
-hugo new content posts/my-first-post.md
-
-Step 2: Publish the page on local server
-Command:
-(⁠ hugo server -D ⁠)
+1. Add the new file to contents/posts folder
 
 
-Step 3: Stop the server
-Command:
-Ctrl+C
+```
+hugo new content/posts/myfirstblogpage.md
+```
 
-Step 4: git status
-Step 5: git add content "filename goes here"
-Step 6: git commit -m "commit message"
-Step 7: git push
+
+2. Write the content on the newly created file
+    Here is the syntax guide for writing .md files
+    https://www.markdownguide.org/basic-syntax/#ordered-lists
+
+3. Save file
+
+
+4. Run hugo server
+
+```
+hugo server -D
+```
+
+5. Stop server
+
+```
+Ctrl +C
+```
+
+6. Verify that your changes are showing up in the localhost
 
 
 
