@@ -14,7 +14,8 @@ hugo new content posts/my-first-post.md
 
 Step 2: Publish the page on local server
 Command:
-hugo server -D
+(⁠ hugo server -D ⁠)
+
 
 Step 3: Stop the server
 Command:
