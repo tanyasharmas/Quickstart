@@ -1,24 +1,66 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
-title = 'Tanya Project'
+title = 'Home'
 theme = 'ananke'
 
+[params.ananke.navigation]
+  submenu_mode = 'hover'
 
-[menus]
-  [[menus.main]]
-    name = 'Home'
-    pageRef = '/'
+[[menus.main]]
+    name = 'AI as Technology'
+    pageRef = '/ai-as-technology'
     weight = 10
 
+[[menus.main]]
+    name = 'LLM'
+    pageRef = '/ai-as-technology/llm-models'
+     parent = 'AI as Technology'
+    weight = 20
 
-  [[menus.main]]
-    name = 'Hugo Website'
-    url = 'https://gohugo.io/'
+[[menus.main]]
+    name = 'Context Windows- Why long chats get expensive'
+    pageRef = '/ai-as-technology/context-windows-why-long-chats-get-expensive'
+     parent = 'AI as Technology'
     weight = 30
+
+
+[[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 40
+
+
+
+[[menus.main]]
+    name = 'How Did I Create a New Post'
+    pageRef = '/posts/how-did-i-create-a-new-post'
+    parent = 'Posts'
+    weight = 20
+
+
+[[menus.main]]
+    name = 'My First Post'
+    pageRef = '/posts/my-first-post'
+    parent = 'Posts'
+    weight = 40
+
+
+[[menus.main]]
+    name = 'My first blogpage with image'
+    pageRef = '/posts/myfirstblogwithimage'
+    parent = 'Posts'
+    weight = 50
+
+
+[[menus.main]]
+    name = 'Terminal commands cheatsheet'
+    pageRef = '/posts/terminal-commands-cheat-sheet'
+    parent = 'Posts'
+    weight = 60
 
 
 [[menus.main]]
     name = 'Hugo Documentation'
     url = 'https://gohugo.io/documentation/'
-    weight = 30
+    weight = 80
 

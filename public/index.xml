@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Home</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on Home</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 22 Nov 2026 21:20:44 +1100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>LLM Models</title>
+				<link>http://localhost:1313/ai-as-technology/llm-models/</link>
+				<pubDate>Sun, 22 Nov 2026 21:20:44 +1100</pubDate>
+				<guid>http://localhost:1313/ai-as-technology/llm-models/</guid>
+				<description>&lt;h1 id=&#34;frontier-models&#34;&gt;Frontier Models&lt;/h1&gt;&#xA;&lt;p&gt;A Frontier Model is a highly capable, general-purpose AI model at or near the leading edge of AI development. Unlike narrower models designed for specific tasks, frontier models can perform a broad range of complex tasks and generally require substantial data and computing resources to develop. As AI technology advances, what qualifies as a frontier model may shift.&lt;/p&gt;&#xA;&lt;h1 id=&#34;open-weight-models&#34;&gt;Open Weight Models&lt;/h1&gt;&#xA;&lt;p&gt;An Open-Weight Model is an AI model whose core components are publicly released, allowing anyone to download it. This lets users run the model on their own computers, study how it works, and even modify it for their own specific needs.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>How Did I Create a New Post</title>
+				<link>http://localhost:1313/posts/how-did-i-create-a-new-post/</link>
+				<pubDate>Sun, 22 Nov 2026 16:15:30 +1100</pubDate>
+				<guid>http://localhost:1313/posts/how-did-i-create-a-new-post/</guid>
+				<description>&lt;h2 id=&#34;steps-to-create-a-new-post&#34;&gt;Steps to create a new post&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Add the new file to contents/posts folder&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;code-block&#34;&gt;&#xA;    &lt;button class=&#34;code-copy&#34; type=&#34;button&#34; hidden aria-label=&#34;Copy code to clipboard&#34;&gt;&#xA;      &lt;span class=&#34;code-copy-label&#34; aria-hidden=&#34;true&#34;&gt;Copy&lt;/span&gt;&#xA;    &lt;/button&gt;&#xA;    &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new content/posts/myfirstblogpage.md&lt;/code&gt;&lt;/pre&gt;&#xA;  &lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Write the content on the newly created file&#xA;Here is the syntax guide for writing .md files&#xA;&lt;a href=&#34;https://www.markdownguide.org/basic-syntax/#ordered-lists&#34;&gt;https://www.markdownguide.org/basic-syntax/#ordered-lists&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Save file&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Run hugo server&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;code-block&#34;&gt;&#xA;    &lt;button class=&#34;code-copy&#34; type=&#34;button&#34; hidden aria-label=&#34;Copy code to clipboard&#34;&gt;&#xA;      &lt;span class=&#34;code-copy-label&#34; aria-hidden=&#34;true&#34;&gt;Copy&lt;/span&gt;&#xA;    &lt;/button&gt;&#xA;    &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo server -D&lt;/code&gt;&lt;/pre&gt;&#xA;  &lt;/div&gt;&lt;ol start=&#34;5&#34;&gt;&#xA;&lt;li&gt;Stop server&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;code-block&#34;&gt;&#xA;    &lt;button class=&#34;code-copy&#34; type=&#34;button&#34; hidden aria-label=&#34;Copy code to clipboard&#34;&gt;&#xA;      &lt;span class=&#34;code-copy-label&#34; aria-hidden=&#34;true&#34;&gt;Copy&lt;/span&gt;&#xA;    &lt;/button&gt;&#xA;    &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Ctrl +C&lt;/code&gt;&lt;/pre&gt;&#xA;  &lt;/div&gt;&lt;ol start=&#34;6&#34;&gt;&#xA;&lt;li&gt;Verify that your changes are showing up in the localhost&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;ready-to-commit-the-changes-to-git&#34;&gt;Ready to commit the changes to git?&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Check git status&lt;/p&gt;&#xA;&lt;div class=&#34;code-block&#34;&gt;&#xA;    &lt;button class=&#34;code-copy&#34; type=&#34;button&#34; hidden aria-label=&#34;Copy code to clipboard&#34;&gt;&#xA;      &lt;span class=&#34;code-copy-label&#34; aria-hidden=&#34;true&#34;&gt;Copy&lt;/span&gt;&#xA;    &lt;/button&gt;&#xA;    &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git status&lt;/code&gt;&lt;/pre&gt;&#xA;  &lt;/div&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add documents to git staging&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+			</item>
+			<item>
+				<title>How Did I Create Static Website</title>
+				<link>http://localhost:1313/posts/how-did-i-create-static-website/</link>
+				<pubDate>Sun, 22 Nov 2026 16:14:37 +1100</pubDate>
+				<guid>http://localhost:1313/posts/how-did-i-create-static-website/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>My First Post</title>
+				<link>http://localhost:1313/posts/my-first-post/</link>
+				<pubDate>Sat, 21 Nov 2026 17:49:07 +1100</pubDate>
+				<guid>http://localhost:1313/posts/my-first-post/</guid>
+				<description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;visit the &lt;a href=&#34;https:google.com&#34;&gt;Google&lt;/a&gt; website!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>My first blogpage with image</title>
+				<link>http://localhost:1313/posts/myfirstblogwithimage/</link>
+				<pubDate>Wed, 18 Nov 2026 21:20:44 +1100</pubDate>
+				<guid>http://localhost:1313/posts/myfirstblogwithimage/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;LLM.png&#34; alt=&#34;LLM Image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Why fine tune?&#xA;Foundation Model&lt;/p&gt;&#xA;&lt;p&gt;Prompt engineering&#xA;Token size&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/ai-as-technology/context-windows-why-long-chats-get-expensive/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/ai-as-technology/context-windows-why-long-chats-get-expensive/</guid>
+				<description>&lt;h1 id=&#34;context-windows--why-long-chats-get-expensive&#34;&gt;Context Windows- Why long chats get expensive&lt;/h1&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/posts/terminal-commands-cheat-sheet/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/terminal-commands-cheat-sheet/</guid>
+				<description>&lt;p&gt;Terminal commands cheatsheet&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Create a new file&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;code-block&#34;&gt;&#xA;    &lt;button class=&#34;code-copy&#34; type=&#34;button&#34; hidden aria-label=&#34;Copy code to clipboard&#34;&gt;&#xA;      &lt;span class=&#34;code-copy-label&#34; aria-hidden=&#34;true&#34;&gt;Copy&lt;/span&gt;&#xA;    &lt;/button&gt;&#xA;    &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;touch ....path/filename&lt;/code&gt;&lt;/pre&gt;&#xA;  &lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Remove a file&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;code-block&#34;&gt;&#xA;    &lt;button class=&#34;code-copy&#34; type=&#34;button&#34; hidden aria-label=&#34;Copy code to clipboard&#34;&gt;&#xA;      &lt;span class=&#34;code-copy-label&#34; aria-hidden=&#34;true&#34;&gt;Copy&lt;/span&gt;&#xA;    &lt;/button&gt;&#xA;    &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;rm ....path/filename&lt;/code&gt;&lt;/pre&gt;&#xA;  &lt;/div&gt;</description>
+			</item>
+	</channel>
+</rss>

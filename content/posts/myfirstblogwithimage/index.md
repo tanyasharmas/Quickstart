@@ -5,3 +5,12 @@ title = 'My first blogpage with image'
 +++
 
 ![LLM Image](LLM.png)
+
+
+
+Why fine tune?
+Foundation Model
+
+
+Prompt engineering
+    Token size

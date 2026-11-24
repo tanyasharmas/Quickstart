@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/ai-as-technology/</loc>
+    <lastmod>2026-11-22T21:20:44+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-11-22T21:20:44+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ai-as-technology/llm-models/</loc>
+    <lastmod>2026-11-22T21:20:44+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/how-did-i-create-a-new-post/</loc>
+    <lastmod>2026-11-22T16:15:30+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-11-22T16:15:30+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/how-did-i-create-static-website/</loc>
+    <lastmod>2026-11-22T16:14:37+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/my-first-post/</loc>
+    <lastmod>2026-11-21T17:49:07+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/myfirstblogwithimage/</loc>
+    <lastmod>2026-11-18T21:20:44+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ai-as-technology/context-windows-why-long-chats-get-expensive/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/terminal-commands-cheat-sheet/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url>
+</urlset>
