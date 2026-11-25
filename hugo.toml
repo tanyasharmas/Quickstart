@@ -23,6 +23,12 @@ theme = 'ananke'
      parent = 'AI as Technology'
     weight = 25
 
+        [[menus.main]]
+    name = 'Enbedding'
+    pageRef = '/ai-as-technology/embeddings'
+     parent = 'AI as Technology'
+    weight = 26
+
 [[menus.main]]
     name = 'Context Windows- Why long chats get expensive'
     pageRef = '/ai-as-technology/context-windows-why-long-chats-get-expensive'

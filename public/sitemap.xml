@@ -3,12 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/ai-as-technology/</loc>
-    <lastmod>2026-11-22T21:20:44+11:00</lastmod>
+    <lastmod>2026-11-25T21:20:44+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-11-22T21:20:44+11:00</lastmod>
+    <lastmod>2026-11-25T21:20:44+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ai-as-technology/temperature-and-sampling/</loc>
+    <lastmod>2026-11-25T21:20:44+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ai-as-technology/embeddings/</loc>
+    <lastmod>2026-11-25T21:20:44+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ai-as-technology/llm-models/</loc>
+    <lastmod>2026-11-22T21:20:44+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ai-as-technology/what-is-a-harness/</loc>
     <lastmod>2026-11-22T21:20:44+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/how-did-i-create-a-new-post/</loc>

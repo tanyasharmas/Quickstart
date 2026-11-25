@@ -1,5 +1,5 @@
 +++
-date = '2026-11-22T21:20:44+11:00'
+date = '2026-11-25T21:20:44+11:00'
 draft = false
 title = 'Model Temperature and Sampling'
 +++

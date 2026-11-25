@@ -10,15 +10,36 @@
 		
 		
 		
-			<lastBuildDate>Sun, 22 Nov 2026 21:20:44 +1100</lastBuildDate>
+			<lastBuildDate>Wed, 25 Nov 2026 21:20:44 +1100</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>LLM Models</title>
+				<title>Model Temperature and Sampling</title>
+				<link>http://localhost:1313/ai-as-technology/temperature-and-sampling/</link>
+				<pubDate>Wed, 25 Nov 2026 21:20:44 +1100</pubDate>
+				<guid>http://localhost:1313/ai-as-technology/temperature-and-sampling/</guid>
+				<description>&lt;p&gt;A model predicts one token at a time, and each token is a probability spread over many possible tokens. Temperature and sampling decide how the next token is picked from the spread.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;A model gives probability for every possible next token. It does not output one word. For the next tojen it produces ranked spread, for example&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: center&#34;&gt;cut off&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: center&#34;&gt;55%&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: center&#34;&gt;vendor&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: center&#34;&gt;25%&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: center&#34;&gt;network&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: center&#34;&gt;15%&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: center&#34;&gt;unknown&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td style=&#34;text-align: center&#34;&gt;5%&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Sampling picks one token from the spread. The tool rolls a weighted die. A 55% is chosen about 55 times in 100 runs, not everytime&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Temperature reshapes the spread before the roll.&#xA;Low temperature makes the most likely token much more dominant.&#xA;High temperature flattens the spread so unlikely tokens get picked more often&#xA;At temperature 0, the tool always takes the top token&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+			</item>
+			<item>
+				<title>What is an embedding?</title>
+				<link>http://localhost:1313/ai-as-technology/embeddings/</link>
+				<pubDate>Wed, 25 Nov 2026 21:20:44 +1100</pubDate>
+				<guid>http://localhost:1313/ai-as-technology/embeddings/</guid>
+				<description>&lt;p&gt;An embedding is a way of turning text (or images, audio, etc.)into a list of numbers, called a vector, so that things with similar meanings end up with similar numbers.&lt;/p&gt;&#xA;&lt;p&gt;For example, &amp;ldquo;I forgot my login credentials&amp;rdquo; and &amp;ldquo;How do I reset my password&amp;rdquo;  share almost no words but their embeddings point in nearly the same direction. A keyword search would miss the match, while embedding search finds it.&lt;/p&gt;&#xA;&lt;h3 id=&#34;why-it-matters&#34;&gt;Why it matters?&lt;/h3&gt;&#xA;&lt;p&gt;Enbeddings power:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Language Models</title>
 				<link>http://localhost:1313/ai-as-technology/llm-models/</link>
 				<pubDate>Sun, 22 Nov 2026 21:20:44 +1100</pubDate>
 				<guid>http://localhost:1313/ai-as-technology/llm-models/</guid>
-				<description>&lt;h1 id=&#34;frontier-models&#34;&gt;Frontier Models&lt;/h1&gt;&#xA;&lt;p&gt;A Frontier Model is a highly capable, general-purpose AI model at or near the leading edge of AI development. Unlike narrower models designed for specific tasks, frontier models can perform a broad range of complex tasks and generally require substantial data and computing resources to develop. As AI technology advances, what qualifies as a frontier model may shift.&lt;/p&gt;&#xA;&lt;h1 id=&#34;open-weight-models&#34;&gt;Open Weight Models&lt;/h1&gt;&#xA;&lt;p&gt;An Open-Weight Model is an AI model whose core components are publicly released, allowing anyone to download it. This lets users run the model on their own computers, study how it works, and even modify it for their own specific needs.&lt;/p&gt;</description>
+				<description>&lt;h1 id=&#34;llm-vs-slm&#34;&gt;LLM vs SLM&lt;/h1&gt;&#xA;&lt;h1 id=&#34;what-is-large-language-model&#34;&gt;What is Large Language Model?&lt;/h1&gt;&#xA;&lt;p&gt;Large Language Model (LLMs) are statistical models of language. They extract patterns and relationships in massive amounts of text and build mathematical representation of how words relate to each other.&lt;/p&gt;&#xA;&lt;h1 id=&#34;frontier-models&#34;&gt;Frontier Models&lt;/h1&gt;&#xA;&lt;p&gt;A Frontier Model is a highly capable, general-purpose AI model at or near the leading edge of AI development. Unlike narrower models designed for specific tasks, frontier models can perform a broad range of complex tasks and generally require substantial data and computing resources to develop. As AI technology advances, what qualifies as a frontier model may shift.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>What is a harness?</title>
+				<link>http://localhost:1313/ai-as-technology/what-is-a-harness/</link>
+				<pubDate>Sun, 22 Nov 2026 21:20:44 +1100</pubDate>
+				<guid>http://localhost:1313/ai-as-technology/what-is-a-harness/</guid>
+				<description></description>
 			</item>
 			<item>
 				<title>How Did I Create a New Post</title>

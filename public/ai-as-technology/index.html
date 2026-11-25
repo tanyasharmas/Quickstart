@@ -310,8 +310,8 @@
 	<meta property="og:type" content="website">
 
 	<meta itemprop="name" content="Ai-as-Technologies">
-	<meta itemprop="datePublished" content="2026-11-22T21:20:44+11:00">
-	<meta itemprop="dateModified" content="2026-11-22T21:20:44+11:00">
+	<meta itemprop="datePublished" content="2026-11-25T21:20:44+11:00">
+	<meta itemprop="dateModified" content="2026-11-25T21:20:44+11:00">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Ai-as-Technologies">
 
@@ -349,6 +349,12 @@
 <ul id="ananke-submenu-0" class="ananke-submenu list ma0 pv2 ph0 br2 ba b--white-20 bg-black">
   <li class="ananke-submenu-item">
     <a class="ananke-submenu-link db pv2 ph3 f5 white-90 hover-white hover-bg-white-10 no-underline" href="/ai-as-technology/llm-models/" title="LLM page">LLM</a>
+  </li>
+  <li class="ananke-submenu-item">
+    <a class="ananke-submenu-link db pv2 ph3 f5 white-90 hover-white hover-bg-white-10 no-underline" href="/ai-as-technology/temperature-and-sampling/" title="Model Temperature and Sampling page">Model Temperature and Sampling</a>
+  </li>
+  <li class="ananke-submenu-item">
+    <a class="ananke-submenu-link db pv2 ph3 f5 white-90 hover-white hover-bg-white-10 no-underline" href="/ai-as-technology/embeddings/" title="Enbedding page">Enbedding</a>
   </li>
   <li class="ananke-submenu-item">
     <a class="ananke-submenu-link db pv2 ph3 f5 white-90 hover-white hover-bg-white-10 no-underline" href="/ai-as-technology/context-windows-why-long-chats-get-expensive/" title="Context Windows- Why long chats get expensive page">Context Windows- Why long chats get expensive</a>
@@ -424,20 +430,139 @@
       <span class="f6 db">Ai-as-Technologies</span>
     
     
+      <time class="f6 db" datetime="2026-11-25T21:20:44+11:00">November 25, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/ai-as-technology/temperature-and-sampling/" class="link black dim">
+        Model Temperature and Sampling
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>A model predicts one token at a time, and each token is a probability spread over many possible tokens. Temperature and sampling decide how the next token is picked from the spread.</p>
+<ol>
+<li>A model gives probability for every possible next token. It does not output one word. For the next tojen it produces ranked spread, for example</li>
+</ol>
+<table>
+	<thead>
+			<tr>
+					<th></th>
+					<th></th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: center">cut off</td>
+					<td style="text-align: center">55%</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">vendor</td>
+					<td style="text-align: center">25%</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">network</td>
+					<td style="text-align: center">15%</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">unknown</td>
+					<td style="text-align: center">5%</td>
+			</tr>
+	</tbody>
+</table>
+<ol start="2">
+<li>
+<p>Sampling picks one token from the spread. The tool rolls a weighted die. A 55% is chosen about 55 times in 100 runs, not everytime</p>
+</li>
+<li>
+<p>Temperature reshapes the spread before the roll.
+Low temperature makes the most likely token much more dominant.
+High temperature flattens the spread so unlikely tokens get picked more often
+At temperature 0, the tool always takes the top token</p>
+</li>
+</ol>
+    </div>
+    <a href="/ai-as-technology/temperature-and-sampling/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          
+
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 mid-gray overflow-hidden bg-white">
+    
+      <span class="f6 db">Ai-as-Technologies</span>
+    
+    
+      <time class="f6 db" datetime="2026-11-25T21:20:44+11:00">November 25, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/ai-as-technology/embeddings/" class="link black dim">
+        What is an embedding?
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>An embedding is a way of turning text (or images, audio, etc.)into a list of numbers, called a vector, so that things with similar meanings end up with similar numbers.</p>
+<p>For example, &ldquo;I forgot my login credentials&rdquo; and &ldquo;How do I reset my password&rdquo;  share almost no words but their embeddings point in nearly the same direction. A keyword search would miss the match, while embedding search finds it.</p>
+<h3 id="why-it-matters">Why it matters?</h3>
+<p>Enbeddings power:</p>
+    </div>
+    <a href="/ai-as-technology/embeddings/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          
+
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 mid-gray overflow-hidden bg-white">
+    
+      <span class="f6 db">Ai-as-Technologies</span>
+    
+    
       <time class="f6 db" datetime="2026-11-22T21:20:44+11:00">November 22, 2026</time>
     
     <h1 class="f3 near-black">
       <a href="/ai-as-technology/llm-models/" class="link black dim">
-        LLM Models
+        Language Models
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      <h1 id="frontier-models">Frontier Models</h1>
+      <h1 id="llm-vs-slm">LLM vs SLM</h1>
+<h1 id="what-is-large-language-model">What is Large Language Model?</h1>
+<p>Large Language Model (LLMs) are statistical models of language. They extract patterns and relationships in massive amounts of text and build mathematical representation of how words relate to each other.</p>
+<h1 id="frontier-models">Frontier Models</h1>
 <p>A Frontier Model is a highly capable, general-purpose AI model at or near the leading edge of AI development. Unlike narrower models designed for specific tasks, frontier models can perform a broad range of complex tasks and generally require substantial data and computing resources to develop. As AI technology advances, what qualifies as a frontier model may shift.</p>
-<h1 id="open-weight-models">Open Weight Models</h1>
-<p>An Open-Weight Model is an AI model whose core components are publicly released, allowing anyone to download it. This lets users run the model on their own computers, study how it works, and even modify it for their own specific needs.</p>
     </div>
     <a href="/ai-as-technology/llm-models/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          
+
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 mid-gray overflow-hidden bg-white">
+    
+      <span class="f6 db">Ai-as-Technologies</span>
+    
+    
+      <time class="f6 db" datetime="2026-11-22T21:20:44+11:00">November 22, 2026</time>
+    
+    <h1 class="f3 near-black">
+      <a href="/ai-as-technology/what-is-a-harness/" class="link black dim">
+        What is a harness?
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      
+    </div>
+    <a href="/ai-as-technology/what-is-a-harness/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
 </div>
 
