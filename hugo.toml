@@ -29,6 +29,12 @@ theme = 'ananke'
      parent = 'AI as Technology'
     weight = 26
 
+    [[menus.main]]
+    name = 'Componenets of LLM'
+    pageRef = '/ai-as-technology/components-of-llm'
+     parent = 'AI as Technology'
+    weight = 26
+
 [[menus.main]]
     name = 'Context Windows- Why long chats get expensive'
     pageRef = '/ai-as-technology/context-windows-why-long-chats-get-expensive'

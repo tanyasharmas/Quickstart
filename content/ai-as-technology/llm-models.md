@@ -4,6 +4,9 @@ draft = false
 title = 'Language Models'
 +++
 
+
+
+
 # LLM vs SLM
 
 # What is Large Language Model?
@@ -20,7 +23,12 @@ An Open-Weight Model is an AI model whose core components are publicly released,
 # Open Source Models
 An Open-Source Model is an AI model whose weights, source code, training data—or a detailed, auditable account of that data—and development tools are available for others to download, run, inspect, reproduce, modify, and improve. Unlike an open-weight model, it reveals more than the model’s learned parameters, enabling meaningful research, auditing, and accountability.
 
-# Reasoning Models
 
+Reasoning models and non-Reasoning models (standard or general-purpose) models differ primarily in how they process information before generating an answer. 
 
 # Non Reasoning Models
+These models predict nent token almost instantly using learned patterns and statistic fluency. They pru=ioritise speed, low latency and cost efficiency.
+
+# Reasoning Models
+The models paus to generate internal "thought tokens" or multi step "chain of thought" before outputting a final response. They use reinforcement learning with verifiable rewards to break down the double check complex problems trading speed and higher compute costs for accuracy. 
+
