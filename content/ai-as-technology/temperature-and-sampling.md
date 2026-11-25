@@ -52,7 +52,7 @@ unknown|about 1%|5%|about 12%
 What this means?
 - At temperature 0.5, "cutoff" wins about 78 times in 100 runs. Answers are more alike
 - At temperature 2, "unknown" gets picked up 12 times in 100. Answers vary more, and some drift into weaker or odd phrasing
-- At temperature 0, "cutoff" wins verytime. The anser is repeatable, but it is still only ,ost likely guess, not a checked fact. 
+- At temperature 0, "cutoff" wins verytime. The anser is repeatable, but it is still only most likely guess, not a checked fact. 
 
 ### Takeaway
 Temperature changes how spread out the models choices are, not weather its true. For analysis, use low randomness and still check every claim against the source.
