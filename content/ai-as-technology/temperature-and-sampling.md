@@ -1,17 +1,20 @@
 +++
 date = '2026-11-22T21:20:44+11:00'
 draft = false
-title = 'Temperature and Sampling'
+title = 'Model Temperature and Sampling'
 +++
 
 A model predicts one token at a time, and each token is a probability spread over many possible tokens. Temperature and sampling decide how the next token is picked from the spread.  
 
 1. A model gives probability for every possible next token. It does not output one word. For the next tojen it produces ranked spread, for example
 
-cut off 55%
-vendor 25%
-network 15%
-unknown 5%
+
+ ||           
+|:-------:|:----:|
+cut off  |55%   
+vendor   |  25% |
+network  |15%   |
+unknown  |5%    | 
 
 2. Sampling picks one token from the spread. The tool rolls a weighted die. A 55% is chosen about 55 times in 100 runs, not everytime
 
@@ -28,7 +31,7 @@ Pitfalls
 Serving infrastructure, batching, and model updates can still change the output slightly. Treat low temperature as "less variation", not "fixed" answer.
 - Many chat tools don't let set temperature at all. Some newer models also ignore it. CHeck settings and API documentation, before you rely on it.
 
-# Example
+### Example
 
 The model is writing the next word.
 

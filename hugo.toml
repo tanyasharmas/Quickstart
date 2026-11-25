@@ -18,10 +18,10 @@ theme = 'ananke'
     weight = 20
 
     [[menus.main]]
-    name = 'Temperature and Sampling'
+    name = 'Model Temperature and Sampling'
     pageRef = '/ai-as-technology/temperature-and-sampling'
      parent = 'AI as Technology'
-    weight = 30
+    weight = 25
 
 [[menus.main]]
     name = 'Context Windows- Why long chats get expensive'

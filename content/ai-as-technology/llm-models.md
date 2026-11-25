@@ -1,8 +1,13 @@
 +++
 date = '2026-11-22T21:20:44+11:00'
 draft = false
-title = 'LLM Models'
+title = 'Language Models'
 +++
+
+# LLM vs SLM
+
+# What is Large Language Model?
+Large Language Model (LLMs) are statistical models of language. They extract patterns and relationships in massive amounts of text and build mathematical representation of how words relate to each other. 
 
 
 # Frontier Models
@@ -14,3 +19,8 @@ An Open-Weight Model is an AI model whose core components are publicly released,
 
 # Open Source Models
 An Open-Source Model is an AI model whose weights, source code, training data—or a detailed, auditable account of that data—and development tools are available for others to download, run, inspect, reproduce, modify, and improve. Unlike an open-weight model, it reveals more than the model’s learned parameters, enabling meaningful research, auditing, and accountability.
+
+# Reasoning Models
+
+
+# Non Reasoning Models
